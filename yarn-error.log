@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn init
+
+PATH: 
+  /usr/local/apache-maven/apache-maven-3.3.9/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/jzeltman/.yarn/bin
+
+Yarn version: 
+  0.16.1
+
+Node version: 
+  4.6.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+bower manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/jzeltman/Development/_josh-projects/nba-scheduler/package.json: Unexpected end of input
+      at Object.parse (native)
+      at Object.<anonymous> (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/lib-legacy/util/fs.js:293:57)
+      at next (native)
+      at step (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+      at /usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:20
+      at run (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/node_modules/core-js/library/modules/es6.promise.js:87:22)
+      at /usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/node_modules/core-js/library/modules/es6.promise.js:100:28
+      at flush (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/node_modules/core-js/library/modules/_microtask.js:18:9)
+      at nextTickCallbackWith0Args (node.js:420:9)
+      at process._tickCallback (node.js:349:13)

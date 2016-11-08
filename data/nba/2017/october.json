@@ -1,0 +1,407 @@
+[
+    {
+        "Date": "Tue Oct 25 2016",
+        "Start (ET)": "7:30 pm",
+        "Visitor/Neutral": "New York Knicks",
+        "PTS": 117,
+        "Home/Neutral": "Cleveland Cavaliers",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Tue Oct 25 2016",
+        "Start (ET)": "10:30 pm",
+        "Visitor/Neutral": "San Antonio Spurs",
+        "PTS": 100,
+        "Home/Neutral": "Golden State Warriors",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Tue Oct 25 2016",
+        "Start (ET)": "10:00 pm",
+        "Visitor/Neutral": "Utah Jazz",
+        "PTS": 113,
+        "Home/Neutral": "Portland Trail Blazers",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Wed Oct 26 2016",
+        "Start (ET)": "7:30 pm",
+        "Visitor/Neutral": "Brooklyn Nets",
+        "PTS": 122,
+        "Home/Neutral": "Boston Celtics",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Wed Oct 26 2016",
+        "Start (ET)": "7:00 pm",
+        "Visitor/Neutral": "Dallas Mavericks",
+        "PTS": 130,
+        "Home/Neutral": "Indiana Pacers",
+        "": "OT",
+        "Notes": ""
+    },
+    {
+        "Date": "Wed Oct 26 2016",
+        "Start (ET)": "10:30 pm",
+        "Visitor/Neutral": "Houston Rockets",
+        "PTS": 120,
+        "Home/Neutral": "Los Angeles Lakers",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Wed Oct 26 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "Minnesota Timberwolves",
+        "PTS": 102,
+        "Home/Neutral": "Memphis Grizzlies",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Wed Oct 26 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "Charlotte Hornets",
+        "PTS": 96,
+        "Home/Neutral": "Milwaukee Bucks",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Wed Oct 26 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "Denver Nuggets",
+        "PTS": 102,
+        "Home/Neutral": "New Orleans Pelicans",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Wed Oct 26 2016",
+        "Start (ET)": "7:00 pm",
+        "Visitor/Neutral": "Miami Heat",
+        "PTS": 96,
+        "Home/Neutral": "Orlando Magic",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Wed Oct 26 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "Oklahoma City Thunder",
+        "PTS": 97,
+        "Home/Neutral": "Philadelphia 76ers",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Wed Oct 26 2016",
+        "Start (ET)": "10:00 pm",
+        "Visitor/Neutral": "Sacramento Kings",
+        "PTS": 94,
+        "Home/Neutral": "Phoenix Suns",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Wed Oct 26 2016",
+        "Start (ET)": "7:30 pm",
+        "Visitor/Neutral": "Detroit Pistons",
+        "PTS": 109,
+        "Home/Neutral": "Toronto Raptors",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Thu Oct 27 2016",
+        "Start (ET)": "7:30 pm",
+        "Visitor/Neutral": "Washington Wizards",
+        "PTS": 114,
+        "Home/Neutral": "Atlanta Hawks",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Thu Oct 27 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "Boston Celtics",
+        "PTS": 105,
+        "Home/Neutral": "Chicago Bulls",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Thu Oct 27 2016",
+        "Start (ET)": "10:30 pm",
+        "Visitor/Neutral": "Los Angeles Clippers",
+        "PTS": 106,
+        "Home/Neutral": "Portland Trail Blazers",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Thu Oct 27 2016",
+        "Start (ET)": "10:30 pm",
+        "Visitor/Neutral": "San Antonio Spurs",
+        "PTS": 94,
+        "Home/Neutral": "Sacramento Kings",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Fri Oct 28 2016",
+        "Start (ET)": "7:30 pm",
+        "Visitor/Neutral": "Indiana Pacers",
+        "PTS": 103,
+        "Home/Neutral": "Brooklyn Nets",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Fri Oct 28 2016",
+        "Start (ET)": "8:30 pm",
+        "Visitor/Neutral": "Houston Rockets",
+        "PTS": 98,
+        "Home/Neutral": "Dallas Mavericks",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Fri Oct 28 2016",
+        "Start (ET)": "7:30 pm",
+        "Visitor/Neutral": "Orlando Magic",
+        "PTS": 108,
+        "Home/Neutral": "Detroit Pistons",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Fri Oct 28 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "Charlotte Hornets",
+        "PTS": 91,
+        "Home/Neutral": "Miami Heat",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Fri Oct 28 2016",
+        "Start (ET)": "9:30 pm",
+        "Visitor/Neutral": "Golden State Warriors",
+        "PTS": 114,
+        "Home/Neutral": "New Orleans Pelicans",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Fri Oct 28 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "Phoenix Suns",
+        "PTS": 113,
+        "Home/Neutral": "Oklahoma City Thunder",
+        "": "OT",
+        "Notes": ""
+    },
+    {
+        "Date": "Fri Oct 28 2016",
+        "Start (ET)": "7:00 pm",
+        "Visitor/Neutral": "Cleveland Cavaliers",
+        "PTS": 91,
+        "Home/Neutral": "Toronto Raptors",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Fri Oct 28 2016",
+        "Start (ET)": "9:00 pm",
+        "Visitor/Neutral": "Los Angeles Lakers",
+        "PTS": 96,
+        "Home/Neutral": "Utah Jazz",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sat Oct 29 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "Indiana Pacers",
+        "PTS": 118,
+        "Home/Neutral": "Chicago Bulls",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sat Oct 29 2016",
+        "Start (ET)": "7:00 pm",
+        "Visitor/Neutral": "Boston Celtics",
+        "PTS": 98,
+        "Home/Neutral": "Charlotte Hornets",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sat Oct 29 2016",
+        "Start (ET)": "7:30 pm",
+        "Visitor/Neutral": "Orlando Magic",
+        "PTS": 105,
+        "Home/Neutral": "Cleveland Cavaliers",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sat Oct 29 2016",
+        "Start (ET)": "9:00 pm",
+        "Visitor/Neutral": "Portland Trail Blazers",
+        "PTS": 113,
+        "Home/Neutral": "Denver Nuggets",
+        "": "OT",
+        "Notes": ""
+    },
+    {
+        "Date": "Sat Oct 29 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "Brooklyn Nets",
+        "PTS": 110,
+        "Home/Neutral": "Milwaukee Bucks",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sat Oct 29 2016",
+        "Start (ET)": "7:30 pm",
+        "Visitor/Neutral": "Memphis Grizzlies",
+        "PTS": 111,
+        "Home/Neutral": "New York Knicks",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sat Oct 29 2016",
+        "Start (ET)": "12:30 pm",
+        "Visitor/Neutral": "Atlanta Hawks",
+        "PTS": 72,
+        "Home/Neutral": "Philadelphia 76ers",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sat Oct 29 2016",
+        "Start (ET)": "10:30 pm",
+        "Visitor/Neutral": "Minnesota Timberwolves",
+        "PTS": 106,
+        "Home/Neutral": "Sacramento Kings",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sat Oct 29 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "New Orleans Pelicans",
+        "PTS": 98,
+        "Home/Neutral": "San Antonio Spurs",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sun Oct 30 2016",
+        "Start (ET)": "6:00 pm",
+        "Visitor/Neutral": "Milwaukee Bucks",
+        "PTS": 98,
+        "Home/Neutral": "Detroit Pistons",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sun Oct 30 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "Dallas Mavericks",
+        "PTS": 93,
+        "Home/Neutral": "Houston Rockets",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sun Oct 30 2016",
+        "Start (ET)": "4:30 pm",
+        "Visitor/Neutral": "Utah Jazz",
+        "PTS": 88,
+        "Home/Neutral": "Los Angeles Clippers",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sun Oct 30 2016",
+        "Start (ET)": "8:00 pm",
+        "Visitor/Neutral": "Washington Wizards",
+        "PTS": 112,
+        "Home/Neutral": "Memphis Grizzlies",
+        "": "OT",
+        "Notes": ""
+    },
+    {
+        "Date": "Sun Oct 30 2016",
+        "Start (ET)": "6:00 pm",
+        "Visitor/Neutral": "San Antonio Spurs",
+        "PTS": 99,
+        "Home/Neutral": "Miami Heat",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sun Oct 30 2016",
+        "Start (ET)": "7:00 pm",
+        "Visitor/Neutral": "Los Angeles Lakers",
+        "PTS": 113,
+        "Home/Neutral": "Oklahoma City Thunder",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Sun Oct 30 2016",
+        "Start (ET)": "6:00 pm",
+        "Visitor/Neutral": "Golden State Warriors",
+        "PTS": 100,
+        "Home/Neutral": "Phoenix Suns",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Mon Oct 31 2016",
+        "Start (ET)": "7:30 pm",
+        "Visitor/Neutral": "Sacramento Kings",
+        "PTS": 106,
+        "Home/Neutral": "Atlanta Hawks",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Mon Oct 31 2016",
+        "Start (ET)": "7:30 pm",
+        "Visitor/Neutral": "Chicago Bulls",
+        "PTS": 88,
+        "Home/Neutral": "Brooklyn Nets",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Mon Oct 31 2016",
+        "Start (ET)": "10:30 pm",
+        "Visitor/Neutral": "Phoenix Suns",
+        "PTS": 116,
+        "Home/Neutral": "Los Angeles Clippers",
+        "": "",
+        "Notes": ""
+    },
+    {
+        "Date": "Mon Oct 31 2016",
+        "Start (ET)": "7:30 pm",
+        "Visitor/Neutral": "Denver Nuggets",
+        "PTS": 105,
+        "Home/Neutral": "Toronto Raptors",
+        "": "",
+        "Notes": ""
+    }
+]
