@@ -1,11 +1,8 @@
-import { 
-    updateSchedule,
-    updateScheduleByGamesPerWeek, 
-    updateScheduleByFavoriteTeam 
-} from './schedule';
 import Init from './init';
-
+import { getGamesForUser } from '../app/helpers';
 import dict from '../dictionary';
+import Logger from '../logger';
+const Log = new Logger('Reducer > Index');
 
 const initialState = {
     userPreferences : {
@@ -24,6 +21,10 @@ const initialState = {
     standings : []
 };
 
+export function updateSchedule(state){
+    return { ...state, userGames : getGamesForUser(state) }
+}
+
 export default function Reducers(state = initialState, action) {
 
     let newState;
@@ -34,30 +35,30 @@ export default function Reducers(state = initialState, action) {
             break;
 
         case 'TOGGLE_FAVORITE_TEAM':
-            console.log('TOGGLE_FAVORITE_TEAM',state.userPreferences.teams,action)
-            newState = Object.assign({}, state);
+            Log.log(['TOGGLE_FAVORITE_TEAM',state,action])
+            newState = { ...state };
             // delete all existing teams
             newState.userPreferences.teams.splice(0,100);
             newState.teams = newState.teams.map( team => { 
-                console.log('teamid',team.id,action.id)
-                if ( team.id === parseInt(action.id) ){ 
-                    team.favorite = !team.favorite;
-                }
+                // flip favorite value if matched team
+                if ( team.id === parseInt(action.id) ){ team.favorite = !team.favorite; }
                 // add back team if it is now favorited
                 if ( team.favorite ){ newState.userPreferences.teams.push(team.name) }
                 return team;
             });
-            console.log('newState.userPreferences.teams',newState.userPreferences.teams)
-            return Object.assign({}, newState, updateSchedule(newState))
+            return updateSchedule(newState);
             break;
 
         case 'CHANGE_GAMES_PER_WEEK':
-            newState = Object.assign({}, state);
+            Log.log(['CHANGE_GAMES_PER_WEEK',state,action]);
+            newState = { ...state };
             newState.userPreferences.gamesPerWeek = parseInt(action.value);
-            return Object.assign({}, newState, updateSchedule(newState))
+            return updateSchedule(newState);
 
         case 'CHANGE_GAME_QUALITY_PREFERENCE':
-            newState = Object.assign({}, state);
+            Log.log(['CHANGE_GAME_QUALITY_PREFERENCE',state,action]);
+            newState = { ...state };
+            newState.userPreferences.preference = action.value
             switch( action.value ){
                 case 'best':
                     newState.userPreferences.multiplier = 0;
@@ -73,10 +74,12 @@ export default function Reducers(state = initialState, action) {
                     break;
             }
 
-            return Object.assign({}, newState, updateSchedule(newState))
+            return updateSchedule(newState);
 
         default:
             return state
             break;
     }
+
+    Log.log('REDUCERS',state,action);
 }

@@ -1,72 +1,58 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import Logger from '../logger'
+const Log = new Logger('Preferences View');
 
 class Preferences extends React.Component {
     constructor(props){
         super(props);
-        this.gamesPerWeekChangeHandler = this.gamesPerWeekChangeHandler.bind(this);
-        this.gameQualityPreferenceChangeHandler = this.gameQualityPreferenceChangeHandler.bind(this);
-        this.state = props;
+        Log.log(['props',props]);
+        this.changeHandler = this.changeHandler.bind(this);
+        this.state = { 
+            preferences  : props.preferences,
+            userTeams    : props.userTeams
+        };
     }
 
-    gamesPerWeekChangeHandler(e){
-        console.log('changeHandler',e,e.target.value);
-        this.props.onChangeGamesPerWeek(e.target.value)
+    componentWillReceiveProps(props){
+        Log.log(['componentWillUpdate',props]);
+        this.setState({
+            preferences  : props.preferences,
+            userTeams    : props.userTeams
+        })
     }
 
-    gameQualityPreferenceChangeHandler(e){
-        console.log('changeHandler',e,e.target.value);
+    changeHandler(e){
+        Log.log(['changeHandler',e,e.target.value]);
+        this.setState({ preferences : e.target.value });
         this.props.onChangeGameQualityPreference(e.target.value)
     }
 
     render(){
-        console.log('render Preferences',this.props)
-        /*
-                    <strong>Games Per Week ({this.state.preferences.gamesPerWeek})</strong>
-                    */
-        return <div id="preferences">
-            <h3>Preferences</h3>
-            <hr/>
-            <ul>
-                <li>
-                    <strong>Games Per Week ({this.props.preferences.gamesPerWeek})</strong>
-                    <span className="fl-right slider">
-                        <span className="games-per-week_start">1</span>
-                        <input type="range" 
-                               min="1" 
-                               max={this.props.totalGamesThisWeek}
-                               defaultValue={this.state.preferences.gamesPerWeek}
-                               onChange={this.gamesPerWeekChangeHandler}/>
-                        <span className="games-per-week_end">{this.props.totalGamesThisWeek}</span>
-                    </span>
-                </li>
-                <li>
-                    <strong>Show Best Games</strong>
-                    <select className='fl-right'
-                            value='best'
-                            onChange={this.gameQualityPreferenceChangeHandler}>
-                        <option value='favorite'>Always Show My Teams</option>
-                        <option value='best'>Prefer Best Matchups</option>
-                        <option value='mix'>Mix</option>
-                    </select>
-                </li>
-            </ul>
-        </div>
+        Log.log(['render',this.state,this.props])
+        return <li id="game-quality">
+            <strong>Matchup Mixture</strong>
+            <select className='fl-right'
+                    value={this.state.preferences}
+                    selected={this.state.preferences}
+                    onChange={this.changeHandler}>
+                <option value='favorite'>Always Show My Teams</option>
+                <option value='best'>Prefer Best Matchups</option>
+                <option value='mix'>Mix</option>
+            </select>
+        </li>
     }
 }
 
 const mapStateToProps = (state,props) => {
-    console.log('state',state);
+    Log.log(['mapStateToProps',state]);
     return {
-        preferences : state.userPreferences,
-        totalGamesThisWeek : state.gamesThisWeek.length
+        preferences : state.userPreferences.preferences,
+        userTeams   : state.userPreferences.teams
     }
 }
 const mapDispatchToProps = (dispatch) => {
     return {
-        onChangeGamesPerWeek: (value) => {
-            dispatch({ type: 'CHANGE_GAMES_PER_WEEK', value })
-        },
         onChangeGameQualityPreference: (value) => {
             dispatch({ type: 'CHANGE_GAME_QUALITY_PREFERENCE', value })
         }

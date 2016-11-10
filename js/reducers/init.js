@@ -1,18 +1,27 @@
 import { 
     parseStandings,
+    getGamesForUser,
     getGamesByWeek,
     getGamesBetweenTopTeams
 } from '../app/helpers';
+import Logger from '../logger';
+const Log = new Logger('Reducer > Init');
 
 export default function Init(state,action){
-    console.log('Init',state,action);
-    let newState = Object.assign({},state);
-    newState.standings = parseStandings(action.standings); 
-    newState.games = action.games;
-    newState.gamesThisWeek = getGamesByWeek(action.games);
+    Log.log('Init',state,action);
+    let gamesIterator = 0;
+    let newState = { 
+        ...state,
+        standings : parseStandings(action.standings), 
+        games : action.games.map( game => { 
+            game.id = gamesIterator;
+            gamesIterator++;
+            return game;
+        }),
+        gamesThisWeek : getGamesByWeek(action.games)
+    };
     let rankedGames = getGamesBetweenTopTeams( 
                                newState.gamesThisWeek, 
-                               newState.standings.names,
                                state.userPreferences,
                                newState.standings
                             )

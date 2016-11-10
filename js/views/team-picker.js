@@ -1,11 +1,14 @@
 import React from 'react';
 import { connect } from 'react-redux';
-
 import dict from '../dictionary';
+import Logger from '../logger';
+const Log = new Logger('Team Picker');
 
 class TeamPicker extends React.Component {
     constructor(props){
         super(props);
+        Log.log(['constructor',props]);
+
         this.clickHandler = this.clickHandler.bind(this);
         this.state = {
             teams : props.teams,
@@ -18,17 +21,17 @@ class TeamPicker extends React.Component {
     }
 
     renderTeam(team){
-        return <li>
+        return <li key={team.id}>
             <input type="checkbox" 
                    onChange={this.clickHandler} 
                    checked={team.favorite}
-                   key={team.id}
                    data-id={team.id} />
             <span>{team.name}</span>
         </li>
     }
 
     render(){
+        Log.log(['render',this.state,this.props])
         let markup = this.state.teams.map( team => { return this.renderTeam(team); });
         return <div id="team-selector">
             <h3>Select your favorite team(s)</h3>
@@ -39,10 +42,8 @@ class TeamPicker extends React.Component {
 }
 
 const mapStateToProps = (state,props) => {
-    console.log('state',state,props);
-    return { 
-        teams : state.teams 
-    }
+    Log.log(['mapStateToProps',state,props]);
+    return { teams : state.teams }
 }
 
 const mapDispatchToProps = (dispatch) => {

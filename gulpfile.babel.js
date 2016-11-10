@@ -22,9 +22,9 @@ var scriptsCount = 0;
 // Gulp tasks
 // ----------------------------------------------------------------------------
 gulp.task('scripts', function () { bundleApp(true); });
-gulp.task('build-js', function () { bundleApp(true); });
+gulp.task('build', function () { bundleApp(true); });
 gulp.task('deploy', function (){ bundleApp(true); });
-gulp.task('watch', function () { gulp.watch(['./js/*.js'], ['scripts']); });
+gulp.task('watch', function () { gulp.watch(['./js/**/*.js'], ['scripts']); });
 
 // When running 'gulp' on the terminal this task will fire.
 // It will start watching for changes in every .js file.

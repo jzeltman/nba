@@ -12,9 +12,8 @@ import STANDINGS from '../data/nba/2017/standings.json';
 document.addEventListener('DOMContentLoaded',Init);
 
 function Init(){
-    console.log('ready');
-    const store = createStore(Reducer, 
-                        window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+    const store = createStore(Reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && 
+                                       window.__REDUX_DEVTOOLS_EXTENSION__());
     
     ReactDOM.render(
         <Provider store={store}><View /></Provider>,

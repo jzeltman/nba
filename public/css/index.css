@@ -97,12 +97,13 @@ aside {
         width: 33.33%;
         border-bottom: 0;
         border-right: 1px solid #ddd; 
+        margin-bottom: 0;
     }
 }
 
 @media screen and (min-width:1200px){
-    #preferences select,
-    #preferences .slider { 
+    #game-quality select,
+    .slider { 
         display: inline-block; 
         float: right;
         width: auto;

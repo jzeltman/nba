@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 
 import TeamPicker from './team-picker';
 import Preferences from './preferences';
+import GamesPerWeek from './games-per-week';
 import Schedule from './schedule';
 
 class View extends React.Component {
@@ -16,7 +17,12 @@ class View extends React.Component {
             </header>
             <main>
                 <aside><Schedule /></aside>
-                <aside><Preferences /></aside>
+                <aside>
+                    <ul>
+                        <GamesPerWeek />
+                        <Preferences />
+                    </ul>
+                </aside>
                 <aside><TeamPicker /></aside>
             </main>
         </div>

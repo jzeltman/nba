@@ -3,6 +3,8 @@ import Moment from 'moment';
 import DATA from '../../data/nba/2017/regular-season.json';
 import STANDINGS from '../../data/nba/2017/standings.json';
 import dict from '../dictionary.js';
+import Logger from '../logger';
+const Log = new Logger('App > Helpers');
 
 export function getMonth(month){
     if ( typeof month === 'string' ){ return dict.months[month]; }
@@ -28,7 +30,8 @@ export function getUserGames(games,userPreferences){
 
 export function getGamesByWeek(games, week){
     return games.filter( game => {
-        let thisWeek = Moment(new Date()).format('YYYY-MM-DD');
+        let today = Moment(new Date()).add(-1,'days');
+        let thisWeek = Moment(new Date()).add(7,'days');
         let parseDate = game.Date.split(' ');
         let date = [parseDate[3], 
                     getMonth(parseDate[1]), 
@@ -36,7 +39,7 @@ export function getGamesByWeek(games, week){
                     getHours(game['Start (ET)']) 
                    ].join('-');
 
-        return Moment(date).isSame(thisWeek,'week');
+        return Moment(date).isAfter(today) && Moment(date).isBefore(thisWeek);
     });
 }
 
@@ -84,6 +87,7 @@ export function getTeamConferenceRanking(team, standings){
 }
 
 export function getIsUserTeamsPlaying(game,teams){
+    console.log('getIsUserTeamsPlaying',game,teams);
     if ( typeof game === 'string' ){ 
         if ( teams.indexOf(game) !== -1 ){ return true; }
         else { return false; }
@@ -95,6 +99,7 @@ export function getIsUserTeamsPlaying(game,teams){
 }
 
 export function getGameQualityScore(game, userPreferences, standings){
+    console.log('getGameQualityScore',game,userPreferences,standings);
     let userTeamPlaying = getIsUserTeamsPlaying(game,userPreferences.teams);
     let homeTeamScore = getTeamConferenceRanking(game[dict.home],standings);
     let visitorTeamScore = getTeamConferenceRanking(game[dict.visitor],standings);
@@ -118,11 +123,11 @@ export function getGameQualityScore(game, userPreferences, standings){
     return score - multiplier;
 }
 
-export function getGamesBetweenTopTeams(games, teams, userPreferences,standings){
-    let gamesArray = [];
-    games.map( game => {
+export function getGamesBetweenTopTeams(games,userPreferences,standings){
+    console.log('getGamesBetweenTopTeams',games,userPreferences,standings);
+    let gamesArray = games.map( game => {
         game.gameScore = getGameQualityScore(game,userPreferences,standings)
-        gamesArray.push( game );
+        return game;
     });
 
     return gamesArray.sort( ( a,b ) => {
@@ -130,6 +135,41 @@ export function getGamesBetweenTopTeams(games, teams, userPreferences,standings)
         if ( a.gameScore < b.gameScore ){ return -1; }
         else { return 0; }
     });
+}
+
+export function getGamesForUser( state ){
+    Log.log(['getGamesForUser',state])
+    if ( state === undefined ){ return false; }
+    let games = state.gamesThisWeek;
+    let standings = state.standings;
+    let user = state.userPreferences;
+    let favoriteGames = [], userGames = [];
+    Log.log(['getGamesForUser > games, standings, user',games,standings,user])
+    
+    // move all the user games to the front of the list, and remove them from
+    // the games list so other games can be ranked independently
+    if ( user.preference === 'favorite' ){
+        Log.log(['getGamesForUser > get favorite team games',user.teams])
+        games.forEach( (game,i) => {
+            Log.log(['getGamesForUser > favorite team loop',game]);
+            if ( user.teams.indexOf(game[dict.home]) !== -1 ||
+                   user.teams.indexOf(game[dict.visitor]) !== -1 ){
+        Log.log(['getGamesForUser > add to favorite games',game])
+                favoriteGames.push(game);
+                games.splice(i,1);
+            };
+        });
+        Log.log(['getGamesForUser > favorite team games',favoriteGames])
+    }
+
+    userGames = getGamesBetweenTopTeams(games,user,standings);
+    Log.log(['getGamesForUser > games for user',userGames])
+    if ( user.preference === 'favorite' ){
+        userGames = favoriteGames.concat(userGames);
+    }
+    console.log('userGames',userGames);
+    return userGames.slice(0,user.gamesPerWeek);
+
 }
 
 /*
