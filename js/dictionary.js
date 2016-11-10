@@ -1,4 +1,4 @@
-export default { 
+module.exports = { 
     months : {
         'Jan' : '01',
         'Feb' : '02',
@@ -84,284 +84,304 @@ export default {
     },
     allTeams : [
         {
+            alias : 'ATL',
             name : 'Atlanta Hawks',
             synonyms : ['Atlanta','Hawks'],
             rank : 0,
             favorite : false,
             id : 0,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'BOS',
             name : 'Boston Celtics',
             synonyms : ['Boston','Celtics'],
             rank : 0,
             favorite : false,
             id : 1,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'DAL',
             name : 'Dallas Mavericks',
             synonyms : ['Dallas','Mavs','Mavericks'],
             rank : 0,
             favorite : false,
             id : 2,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'BKN',
             name : 'Brooklyn Nets',
             synonyms : ['Brooklyn','Nets'],
             rank : 0,
             favorite : false,
             id : 3,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'CHA',
             name : 'Charlotte Hornets',
             synonyms : ['Charlotte','Hornets'],
             rank : 0,
             favorite : false,
             id : 4,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'CHI',
             name : 'Chicago Bulls',
             synonyms : ['Chicago','Bulls'],
             rank : 0,
             favorite : false,
             id : 5,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'CLE',
             name : 'Cleveland Cavaliers',
             synonyms : ['Cleveland','Cavaliers','Cavs'],
             rank : 0,
             favorite : false,
             id : 6,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'DEN',
             name : 'Denver Nuggets',
             synonyms : ['Denver','Nuggets'],
             rank : 0,
             favorite : false,
             id : 7,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'DET',
             name : 'Detroit Pistons',
             synonyms : ['Detroit','Pistons'],
             rank : 0,
             favorite : false,
             id : 8,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'GSW',
             name : 'Golden State Warriors',
             synonyms : ['Golden','State','Warriors'],
             rank : 0,
             favorite : false,
             id : 9,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'HOU',
             name : 'Houston Rockets',
             synonyms : ['Houston','Rockets'],
             rank : 0,
             favorite : false,
             id : 10,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'IND',
             name : 'Indiana Pacers',
             synonyms : ['Indiana','Pacers'],
             rank : 0,
             favorite : false,
             id : 11,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'LAC',
             name : 'Los Angeles Clippers',
             synonyms : ['Los Angeles','Clippers'],
             rank : 0,
             favorite : false,
             id : 12,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'LAL',
             name : 'Los Angeles Lakers',
             synonyms : ['Los Angeles','Lakers'],
             rank : 0,
             favorite : false,
             id : 13,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'MEM',
             name : 'Memphis Grizzlies',
             synonyms : ['Memphis','Grizzlies'],
             rank : 0,
             favorite : false,
             id : 14,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'MIA',
             name : 'Miami Heat',
             synonyms : ['Miami','Heat'],
             rank : 0,
             favorite : false,
             id : 15,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'MIL',
             name : 'Milwaukee Bucks',
             synonyms : ['Milwaukee','Bucks'],
             rank : 0,
             favorite : false,
             id : 16,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'MIN',
             name : 'Minnesota Timberwolves',
             synonyms : ['Minnesota','Timberwolves'],
             rank : 0,
             favorite : false,
             id : 17,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'NOP',
             name : 'New Orleans Pelicans',
             synonyms : ['New Orleans','Pelicans','NOLA','Pels'],
             rank : 0,
             favorite : false,
             id : 18,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'NYK',
             name : 'New York Knicks',
             synonyms : ['New York','Knicks'],
             rank : 0,
             favorite : false,
             id : 19,
             multiplier : 0,
-            conference : 'east'
-        },
-        
-        {
-            name : 'New York Knicks',
-            synonyms : ['New York','Knicks'],
-            rank : 0,
-            favorite : false,
-            id : 20,
-            multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'OKC',
             name : 'Oklahoma City Thunder',
             synonyms : ['Oklahoma City','Thunder','OKC'],
             rank : 0,
             favorite : false,
-            id : 21,
+            id : 20,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'ORL',
             name : 'Orlando Magic',
             synonyms : ['Orlando','Magic'],
             rank : 0,
             favorite : false,
-            id : 22,
+            id : 21,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'PHI',
             name : 'Philadelphia 76ers',
             synonyms : ['Philadelphia','76ers'],
             rank : 0,
             favorite : false,
-            id : 23,
+            id : 22,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'PHX',
             name : 'Phoenix Suns',
             synonyms : ['Phoenix','Suns'],
             rank : 0,
             favorite : false,
-            id : 24,
+            id : 23,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'POR',
             name : 'Portland Trail Blazers',
             synonyms : ['Portland','Trail Blazers','Blazers'],
             rank : 0,
             favorite : false,
-            id : 25,
+            id : 24,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'SAC',
             name : 'Sacramento Kings',
             synonyms : ['Sacramento','Kings'],
             rank : 0,
             favorite : false,
-            id : 26,
+            id : 25,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'SAS',
             name : 'San Antonio Spurs',
             synonyms : ['San Antonio','Spurs'],
             rank : 0,
             favorite : false,
-            id : 27,
+            id : 26,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'TOR',
             name : 'Toronto Raptors',
             synonyms : ['Toronto','Raptors'],
             rank : 0,
             favorite : false,
-            id : 28,
+            id : 27,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         },
         {
+            alias : 'UTA',
             name : 'Utah Jazz',
             synonyms : ['Utah','Jazz'],
             rank : 0,
             favorite : false,
-            id : 29,
+            id : 28,
             multiplier : 0,
-            conference : 'west'
+            conference : 'WESTERN'
         },
         {
+            alias : 'WAS',
             name : 'Washington Wizards',
             synonyms : ['Washington','Wizards'],
             rank : 0,
             favorite : false,
-            id : 30,
+            id : 29,
             multiplier : 0,
-            conference : 'east'
+            conference : 'EASTERN'
         }
     ]
 }

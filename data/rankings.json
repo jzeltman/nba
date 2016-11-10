@@ -1,0 +1,224 @@
+[
+    {
+        "alias": "EASTERN",
+        "name": "EASTERN CONFERENCE",
+        "ranks": [
+            {
+                "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Cavaliers",
+                "market": "Cleveland",
+                "rank": 1,
+                "alias": "CLE"
+            },
+            {
+                "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Hornets",
+                "market": "Charlotte",
+                "rank": 2,
+                "alias": "CHA"
+            },
+            {
+                "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Hawks",
+                "market": "Atlanta",
+                "rank": 3,
+                "alias": "ATL"
+            },
+            {
+                "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Raptors",
+                "market": "Toronto",
+                "rank": 4,
+                "alias": "TOR"
+            },
+            {
+                "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Bucks",
+                "market": "Milwaukee",
+                "rank": 5,
+                "alias": "MIL"
+            },
+            {
+                "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Bulls",
+                "market": "Chicago",
+                "rank": 6,
+                "alias": "CHI"
+            },
+            {
+                "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Pacers",
+                "market": "Indiana",
+                "rank": 7,
+                "alias": "IND"
+            },
+            {
+                "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Pistons",
+                "market": "Detroit",
+                "rank": 8,
+                "alias": "DET"
+            },
+            {
+                "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Celtics",
+                "market": "Boston",
+                "rank": 9,
+                "alias": "BOS"
+            },
+            {
+                "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Knicks",
+                "market": "New York",
+                "rank": 10,
+                "alias": "NYK"
+            },
+            {
+                "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Magic",
+                "market": "Orlando",
+                "rank": 11,
+                "alias": "ORL"
+            },
+            {
+                "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Nets",
+                "market": "Brooklyn",
+                "rank": 12,
+                "alias": "BKN"
+            },
+            {
+                "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Heat",
+                "market": "Miami",
+                "rank": 13,
+                "alias": "MIA"
+            },
+            {
+                "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Wizards",
+                "market": "Washington",
+                "rank": 14,
+                "alias": "WAS"
+            },
+            {
+                "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "76ers",
+                "market": "Philadelphia",
+                "rank": 15,
+                "alias": "PHI"
+            }
+        ]
+    },
+    {
+        "alias": "WESTERN",
+        "name": "WESTERN CONFERENCE",
+        "ranks": [
+            {
+                "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Clippers",
+                "market": "Los Angeles",
+                "rank": 1,
+                "alias": "LAC"
+            },
+            {
+                "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Thunder",
+                "market": "Oklahoma City",
+                "rank": 2,
+                "alias": "OKC"
+            },
+            {
+                "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Warriors",
+                "market": "Golden State",
+                "rank": 3,
+                "alias": "GSW"
+            },
+            {
+                "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Rockets",
+                "market": "Houston",
+                "rank": 4,
+                "alias": "HOU"
+            },
+            {
+                "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Spurs",
+                "market": "San Antonio",
+                "rank": 5,
+                "alias": "SAS"
+            },
+            {
+                "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Jazz",
+                "market": "Utah",
+                "rank": 6,
+                "alias": "UTA"
+            },
+            {
+                "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Trail Blazers",
+                "market": "Portland",
+                "rank": 7,
+                "alias": "POR"
+            },
+            {
+                "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Grizzlies",
+                "market": "Memphis",
+                "rank": 8,
+                "alias": "MEM"
+            },
+            {
+                "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Lakers",
+                "market": "Los Angeles",
+                "rank": 9,
+                "alias": "LAL"
+            },
+            {
+                "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Kings",
+                "market": "Sacramento",
+                "rank": 10,
+                "alias": "SAC"
+            },
+            {
+                "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Nuggets",
+                "market": "Denver",
+                "rank": 11,
+                "alias": "DEN"
+            },
+            {
+                "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Suns",
+                "market": "Phoenix",
+                "rank": 12,
+                "alias": "PHX"
+            },
+            {
+                "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Timberwolves",
+                "market": "Minnesota",
+                "rank": 13,
+                "alias": "MIN"
+            },
+            {
+                "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Mavericks",
+                "market": "Dallas",
+                "rank": 14,
+                "alias": "DAL"
+            },
+            {
+                "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Pelicans",
+                "market": "New Orleans",
+                "rank": 15,
+                "alias": "NOP"
+            }
+        ]
+    }
+]
