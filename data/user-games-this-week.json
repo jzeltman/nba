@@ -1,0 +1,157 @@
+[
+    {
+        "id": "3e4bd593-7341-4dad-ac99-1d92c5a04166",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-12T01:00:00+00:00",
+        "venue": {
+            "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+            "name": "Chesapeake Energy Arena",
+            "capacity": 18203,
+            "address": "100 W. Reno Ave.",
+            "city": "Oklahoma City",
+            "state": "OK",
+            "zip": "73102",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "NBA TV",
+            "satellite": "216"
+        },
+        "home": {
+            "name": "Oklahoma City Thunder",
+            "alias": "OKC",
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Los Angeles Clippers",
+            "alias": "LAC",
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 3
+    },
+    {
+        "id": "df65c662-39fc-4f04-aee6-d3007dc92f37",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-13T20:30:00+00:00",
+        "venue": {
+            "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+            "name": "Quicken Loans Arena",
+            "capacity": 20562,
+            "address": "One Center Court",
+            "city": "Cleveland",
+            "state": "OH",
+            "zip": "44115",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "FS-OH",
+            "satellite": "660"
+        },
+        "home": {
+            "name": "Cleveland Cavaliers",
+            "alias": "CLE",
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Charlotte Hornets",
+            "alias": "CHA",
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 3
+    },
+    {
+        "id": "6dcc5003-0bd3-4d2c-97d7-fbda32dffff8",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-16T00:00:00+00:00",
+        "venue": {
+            "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+            "name": "Quicken Loans Arena",
+            "capacity": 20562,
+            "address": "One Center Court",
+            "city": "Cleveland",
+            "state": "OH",
+            "zip": "44115",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "NBA TV",
+            "satellite": "216"
+        },
+        "home": {
+            "name": "Cleveland Cavaliers",
+            "alias": "CLE",
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Toronto Raptors",
+            "alias": "TOR",
+            "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 5
+    },
+    {
+        "id": "088870b6-6174-4c0a-b4e4-ba2ac65d3645",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-17T00:30:00+00:00",
+        "venue": {
+            "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+            "name": "Philips Arena",
+            "capacity": 18118,
+            "address": "One Philips Drive",
+            "city": "Atlanta",
+            "state": "GA",
+            "zip": "30303",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "FS-SE",
+            "satellite": "649"
+        },
+        "home": {
+            "name": "Atlanta Hawks",
+            "alias": "ATL",
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Milwaukee Bucks",
+            "alias": "MIL",
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 3.5
+    },
+    {
+        "id": "1207f5f4-9dca-4750-9098-6879a56884de",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-17T01:00:00+00:00",
+        "venue": {
+            "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+            "name": "Chesapeake Energy Arena",
+            "capacity": 18203,
+            "address": "100 W. Reno Ave.",
+            "city": "Oklahoma City",
+            "state": "OK",
+            "zip": "73102",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "FS-OK",
+            "satellite": "676-5"
+        },
+        "home": {
+            "name": "Oklahoma City Thunder",
+            "alias": "OKC",
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Houston Rockets",
+            "alias": "HOU",
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 6
+    }
+]

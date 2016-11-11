@@ -1,36 +1,5 @@
 [
     {
-        "id": "df65c662-39fc-4f04-aee6-d3007dc92f37",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-13T20:30:00+00:00",
-        "venue": {
-            "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
-            "name": "Quicken Loans Arena",
-            "capacity": 20562,
-            "address": "One Center Court",
-            "city": "Cleveland",
-            "state": "OH",
-            "zip": "44115",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "FS-OH",
-            "satellite": "660"
-        },
-        "home": {
-            "name": "Cleveland Cavaliers",
-            "alias": "CLE",
-            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Charlotte Hornets",
-            "alias": "CHA",
-            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 3
-    },
-    {
         "id": "3e4bd593-7341-4dad-ac99-1d92c5a04166",
         "status": "scheduled",
         "coverage": "full",
@@ -58,6 +27,37 @@
             "name": "Los Angeles Clippers",
             "alias": "LAC",
             "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 3
+    },
+    {
+        "id": "df65c662-39fc-4f04-aee6-d3007dc92f37",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-13T20:30:00+00:00",
+        "venue": {
+            "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+            "name": "Quicken Loans Arena",
+            "capacity": 20562,
+            "address": "One Center Court",
+            "city": "Cleveland",
+            "state": "OH",
+            "zip": "44115",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "FS-OH",
+            "satellite": "660"
+        },
+        "home": {
+            "name": "Cleveland Cavaliers",
+            "alias": "CLE",
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Charlotte Hornets",
+            "alias": "CHA",
+            "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "gameScore": 3
     },
@@ -93,37 +93,6 @@
         "gameScore": 5
     },
     {
-        "id": "1207f5f4-9dca-4750-9098-6879a56884de",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-17T01:00:00+00:00",
-        "venue": {
-            "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
-            "name": "Chesapeake Energy Arena",
-            "capacity": 18203,
-            "address": "100 W. Reno Ave.",
-            "city": "Oklahoma City",
-            "state": "OK",
-            "zip": "73102",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "FS-OK",
-            "satellite": "676-5"
-        },
-        "home": {
-            "name": "Oklahoma City Thunder",
-            "alias": "OKC",
-            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Houston Rockets",
-            "alias": "HOU",
-            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 6
-    },
-    {
         "id": "ff4ad743-44cf-4d26-aa38-323e903b0552",
         "status": "scheduled",
         "coverage": "full",
@@ -151,6 +120,37 @@
             "name": "Toronto Raptors",
             "alias": "TOR",
             "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 6
+    },
+    {
+        "id": "1207f5f4-9dca-4750-9098-6879a56884de",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-17T01:00:00+00:00",
+        "venue": {
+            "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+            "name": "Chesapeake Energy Arena",
+            "capacity": 18203,
+            "address": "100 W. Reno Ave.",
+            "city": "Oklahoma City",
+            "state": "OK",
+            "zip": "73102",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "FS-OK",
+            "satellite": "676-5"
+        },
+        "home": {
+            "name": "Oklahoma City Thunder",
+            "alias": "OKC",
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Houston Rockets",
+            "alias": "HOU",
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "gameScore": 6
     },
@@ -186,37 +186,6 @@
         "gameScore": 7
     },
     {
-        "id": "088870b6-6174-4c0a-b4e4-ba2ac65d3645",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-17T00:30:00+00:00",
-        "venue": {
-            "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
-            "name": "Philips Arena",
-            "capacity": 18118,
-            "address": "One Philips Drive",
-            "city": "Atlanta",
-            "state": "GA",
-            "zip": "30303",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "FS-SE",
-            "satellite": "649"
-        },
-        "home": {
-            "name": "Atlanta Hawks",
-            "alias": "ATL",
-            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Milwaukee Bucks",
-            "alias": "MIL",
-            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 8
-    },
-    {
         "id": "a5e27215-1a2e-4115-9d69-cb797563b491",
         "status": "scheduled",
         "coverage": "full",
@@ -244,6 +213,37 @@
             "name": "Cleveland Cavaliers",
             "alias": "CLE",
             "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 8
+    },
+    {
+        "id": "088870b6-6174-4c0a-b4e4-ba2ac65d3645",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-17T00:30:00+00:00",
+        "venue": {
+            "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+            "name": "Philips Arena",
+            "capacity": 18118,
+            "address": "One Philips Drive",
+            "city": "Atlanta",
+            "state": "GA",
+            "zip": "30303",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "FS-SE",
+            "satellite": "649"
+        },
+        "home": {
+            "name": "Atlanta Hawks",
+            "alias": "ATL",
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Milwaukee Bucks",
+            "alias": "MIL",
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "gameScore": 8
     },
@@ -341,6 +341,99 @@
         "gameScore": 10
     },
     {
+        "id": "e8d9a247-57d8-45f9-aa96-70d8e890fd40",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-15T03:30:00+00:00",
+        "venue": {
+            "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+            "name": "Staples Center",
+            "capacity": 19060,
+            "address": "1111 S. Figueroa St.",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zip": "90015",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "PRIME",
+            "satellite": "693"
+        },
+        "home": {
+            "name": "Los Angeles Clippers",
+            "alias": "LAC",
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Brooklyn Nets",
+            "alias": "BKN",
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 13
+    },
+    {
+        "id": "a3b308d6-2c18-4732-bc1e-da7ada516111",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-14T00:00:00+00:00",
+        "venue": {
+            "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+            "name": "Chesapeake Energy Arena",
+            "capacity": 18203,
+            "address": "100 W. Reno Ave.",
+            "city": "Oklahoma City",
+            "state": "OK",
+            "zip": "73102",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "FS-OK",
+            "satellite": "676-5"
+        },
+        "home": {
+            "name": "Oklahoma City Thunder",
+            "alias": "OKC",
+            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Orlando Magic",
+            "alias": "ORL",
+            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 13
+    },
+    {
+        "id": "e23fbc72-b363-4866-8725-decc7aa813e0",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-13T01:30:00+00:00",
+        "venue": {
+            "id": "9bb9599c-17dd-4253-82bb-96fae950a32f",
+            "name": "BMO Harris Bradley Center",
+            "capacity": 18717,
+            "address": "1001 N Fourth St",
+            "city": "Milwaukee",
+            "state": "WI",
+            "zip": "53203",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "FS-WI",
+            "satellite": "668-1"
+        },
+        "home": {
+            "name": "Milwaukee Bucks",
+            "alias": "MIL",
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Memphis Grizzlies",
+            "alias": "MEM",
+            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 13
+    },
+    {
         "id": "f59ec6ea-4824-4616-b4fc-9eda0abffc86",
         "status": "scheduled",
         "coverage": "full",
@@ -401,161 +494,6 @@
             "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "gameScore": 13
-    },
-    {
-        "id": "e8d9a247-57d8-45f9-aa96-70d8e890fd40",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-15T03:30:00+00:00",
-        "venue": {
-            "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
-            "name": "Staples Center",
-            "capacity": 19060,
-            "address": "1111 S. Figueroa St.",
-            "city": "Los Angeles",
-            "state": "CA",
-            "zip": "90015",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "PRIME",
-            "satellite": "693"
-        },
-        "home": {
-            "name": "Los Angeles Clippers",
-            "alias": "LAC",
-            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Brooklyn Nets",
-            "alias": "BKN",
-            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 13
-    },
-    {
-        "id": "e23fbc72-b363-4866-8725-decc7aa813e0",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-13T01:30:00+00:00",
-        "venue": {
-            "id": "9bb9599c-17dd-4253-82bb-96fae950a32f",
-            "name": "BMO Harris Bradley Center",
-            "capacity": 18717,
-            "address": "1001 N Fourth St",
-            "city": "Milwaukee",
-            "state": "WI",
-            "zip": "53203",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "FS-WI",
-            "satellite": "668-1"
-        },
-        "home": {
-            "name": "Milwaukee Bucks",
-            "alias": "MIL",
-            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Memphis Grizzlies",
-            "alias": "MEM",
-            "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 13
-    },
-    {
-        "id": "a3b308d6-2c18-4732-bc1e-da7ada516111",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-14T00:00:00+00:00",
-        "venue": {
-            "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
-            "name": "Chesapeake Energy Arena",
-            "capacity": 18203,
-            "address": "100 W. Reno Ave.",
-            "city": "Oklahoma City",
-            "state": "OK",
-            "zip": "73102",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "FS-OK",
-            "satellite": "676-5"
-        },
-        "home": {
-            "name": "Oklahoma City Thunder",
-            "alias": "OKC",
-            "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Orlando Magic",
-            "alias": "ORL",
-            "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 13
-    },
-    {
-        "id": "af72355c-22c4-489e-9a69-0e9b35b29c58",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-11T02:00:00+00:00",
-        "venue": {
-            "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
-            "name": "Pepsi Center",
-            "capacity": 19155,
-            "address": "1000 Chopper Circle",
-            "city": "Denver",
-            "state": "CO",
-            "zip": "80204",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "ALT",
-            "satellite": "681"
-        },
-        "home": {
-            "name": "Denver Nuggets",
-            "alias": "DEN",
-            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Golden State Warriors",
-            "alias": "GSW",
-            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 14
-    },
-    {
-        "id": "6fa24898-0318-414d-927d-a28636792cfc",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-13T01:00:00+00:00",
-        "venue": {
-            "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
-            "name": "Target Center",
-            "capacity": 19356,
-            "address": "600 First Ave. North",
-            "city": "Minneapolis",
-            "state": "MN",
-            "zip": "55403",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "FS-N",
-            "satellite": "668"
-        },
-        "home": {
-            "name": "Minnesota Timberwolves",
-            "alias": "MIN",
-            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Los Angeles Clippers",
-            "alias": "LAC",
-            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 14
     },
     {
         "id": "f5f37287-e056-43c7-be86-83cc50c95e43",
@@ -620,35 +558,66 @@
         "gameScore": 14
     },
     {
-        "id": "bd44d1a9-e983-4527-8469-add1cb7975ad",
+        "id": "af72355c-22c4-489e-9a69-0e9b35b29c58",
         "status": "scheduled",
         "coverage": "full",
-        "scheduled": "2016-11-12T00:00:00+00:00",
+        "scheduled": "2016-11-11T02:00:00+00:00",
         "venue": {
-            "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
-            "name": "Verizon Center",
-            "capacity": 20356,
-            "address": "601 F St. N.W.",
-            "city": "Washington",
-            "state": "DC",
-            "zip": "20004",
+            "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
+            "name": "Pepsi Center",
+            "capacity": 19155,
+            "address": "1000 Chopper Circle",
+            "city": "Denver",
+            "state": "CO",
+            "zip": "80204",
             "country": "USA"
         },
         "broadcast": {
-            "network": "CSN-DC",
-            "satellite": "642"
+            "network": "ALT",
+            "satellite": "681"
         },
         "home": {
-            "name": "Washington Wizards",
-            "alias": "WAS",
-            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+            "name": "Denver Nuggets",
+            "alias": "DEN",
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "away": {
-            "name": "Cleveland Cavaliers",
-            "alias": "CLE",
-            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
+            "name": "Golden State Warriors",
+            "alias": "GSW",
+            "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c"
         },
-        "gameScore": 15
+        "gameScore": 14
+    },
+    {
+        "id": "6fa24898-0318-414d-927d-a28636792cfc",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-13T01:00:00+00:00",
+        "venue": {
+            "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+            "name": "Target Center",
+            "capacity": 19356,
+            "address": "600 First Ave. North",
+            "city": "Minneapolis",
+            "state": "MN",
+            "zip": "55403",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "FS-N",
+            "satellite": "668"
+        },
+        "home": {
+            "name": "Minnesota Timberwolves",
+            "alias": "MIN",
+            "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Los Angeles Clippers",
+            "alias": "LAC",
+            "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 14
     },
     {
         "id": "8669e85c-2c2e-420f-acfc-7f32eb020175",
@@ -709,6 +678,37 @@
             "name": "Phoenix Suns",
             "alias": "PHX",
             "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 15
+    },
+    {
+        "id": "bd44d1a9-e983-4527-8469-add1cb7975ad",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-12T00:00:00+00:00",
+        "venue": {
+            "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+            "name": "Verizon Center",
+            "capacity": 20356,
+            "address": "601 F St. N.W.",
+            "city": "Washington",
+            "state": "DC",
+            "zip": "20004",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "CSN-DC",
+            "satellite": "642"
+        },
+        "home": {
+            "name": "Washington Wizards",
+            "alias": "WAS",
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Cleveland Cavaliers",
+            "alias": "CLE",
+            "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "gameScore": 15
     },
@@ -867,6 +867,129 @@
         "gameScore": 17
     },
     {
+        "id": "88090b5e-7b98-4392-b05b-59f30fcdd313",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-14T02:00:00+00:00",
+        "venue": {
+            "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+            "name": "Moda Center",
+            "capacity": 19980,
+            "address": "1 Center Court",
+            "city": "Portland",
+            "state": "OR",
+            "zip": "97227",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "CSN-NW"
+        },
+        "home": {
+            "name": "Portland Trail Blazers",
+            "alias": "POR",
+            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Denver Nuggets",
+            "alias": "DEN",
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 18
+    },
+    {
+        "id": "771d46b4-8e69-462c-a631-49944cbfa46f",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-13T00:30:00+00:00",
+        "venue": {
+            "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+            "name": "Philips Arena",
+            "capacity": 18118,
+            "address": "One Philips Drive",
+            "city": "Atlanta",
+            "state": "GA",
+            "zip": "30303",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "FS-SE",
+            "satellite": "649"
+        },
+        "home": {
+            "name": "Atlanta Hawks",
+            "alias": "ATL",
+            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Philadelphia 76ers",
+            "alias": "PHI",
+            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 18
+    },
+    {
+        "id": "13d923f3-1a1e-4e7b-b6e5-dd35f4bda88d",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-18T00:30:00+00:00",
+        "venue": {
+            "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+            "name": "American Airlines Arena",
+            "capacity": 19600,
+            "address": "601 Biscayne Blvd.",
+            "city": "Miami",
+            "state": "FL",
+            "zip": "33132",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "SUN",
+            "satellite": "653"
+        },
+        "home": {
+            "name": "Miami Heat",
+            "alias": "MIA",
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Milwaukee Bucks",
+            "alias": "MIL",
+            "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 18
+    },
+    {
+        "id": "b20ff24d-1215-4d7f-bd80-3db9bce11b9c",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-17T00:30:00+00:00",
+        "venue": {
+            "id": "583152aa-de75-5bea-ac92-ac5b8a51f9f9",
+            "name": "Madison Square Garden",
+            "capacity": 19812,
+            "address": "Four Pennsylvania Plaza",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10001",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "MSG",
+            "satellite": "634"
+        },
+        "home": {
+            "name": "New York Knicks",
+            "alias": "NYK",
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Detroit Pistons",
+            "alias": "DET",
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 18
+    },
+    {
         "id": "567acbfd-6c61-455f-a307-d0c66797d6f4",
         "status": "scheduled",
         "coverage": "full",
@@ -929,156 +1052,33 @@
         "gameScore": 18
     },
     {
-        "id": "771d46b4-8e69-462c-a631-49944cbfa46f",
+        "id": "d7b9b7f9-228c-42bc-8934-f25dfb5e0049",
         "status": "scheduled",
         "coverage": "full",
-        "scheduled": "2016-11-13T00:30:00+00:00",
+        "scheduled": "2016-11-15T01:00:00+00:00",
         "venue": {
-            "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
-            "name": "Philips Arena",
-            "capacity": 18118,
-            "address": "One Philips Drive",
-            "city": "Atlanta",
-            "state": "GA",
-            "zip": "30303",
+            "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+            "name": "Toyota Center",
+            "capacity": 18055,
+            "address": "1510 Polk St.",
+            "city": "Houston",
+            "state": "TX",
+            "zip": "77002",
             "country": "USA"
         },
         "broadcast": {
-            "network": "FS-SE",
-            "satellite": "649"
+            "network": "NBA TV",
+            "satellite": "216"
         },
         "home": {
-            "name": "Atlanta Hawks",
-            "alias": "ATL",
-            "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c"
+            "name": "Houston Rockets",
+            "alias": "HOU",
+            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "away": {
             "name": "Philadelphia 76ers",
             "alias": "PHI",
             "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 18
-    },
-    {
-        "id": "88090b5e-7b98-4392-b05b-59f30fcdd313",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-14T02:00:00+00:00",
-        "venue": {
-            "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
-            "name": "Moda Center",
-            "capacity": 19980,
-            "address": "1 Center Court",
-            "city": "Portland",
-            "state": "OR",
-            "zip": "97227",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "CSN-NW"
-        },
-        "home": {
-            "name": "Portland Trail Blazers",
-            "alias": "POR",
-            "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Denver Nuggets",
-            "alias": "DEN",
-            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 18
-    },
-    {
-        "id": "b20ff24d-1215-4d7f-bd80-3db9bce11b9c",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-17T00:30:00+00:00",
-        "venue": {
-            "id": "583152aa-de75-5bea-ac92-ac5b8a51f9f9",
-            "name": "Madison Square Garden",
-            "capacity": 19812,
-            "address": "Four Pennsylvania Plaza",
-            "city": "New York",
-            "state": "NY",
-            "zip": "10001",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "MSG",
-            "satellite": "634"
-        },
-        "home": {
-            "name": "New York Knicks",
-            "alias": "NYK",
-            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Detroit Pistons",
-            "alias": "DET",
-            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 18
-    },
-    {
-        "id": "b68b4e02-8044-4327-a9e2-16a157b30c54",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-13T01:00:00+00:00",
-        "venue": {
-            "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
-            "name": "American Airlines Arena",
-            "capacity": 19600,
-            "address": "601 Biscayne Blvd.",
-            "city": "Miami",
-            "state": "FL",
-            "zip": "33132",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "SUN",
-            "satellite": "653"
-        },
-        "home": {
-            "name": "Miami Heat",
-            "alias": "MIA",
-            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Utah Jazz",
-            "alias": "UTA",
-            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "gameScore": 19
-    },
-    {
-        "id": "e5aef2b6-4a89-4bc4-9300-b69c3f440551",
-        "status": "scheduled",
-        "coverage": "full",
-        "scheduled": "2016-11-11T01:00:00+00:00",
-        "venue": {
-            "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
-            "name": "American Airlines Arena",
-            "capacity": 19600,
-            "address": "601 Biscayne Blvd.",
-            "city": "Miami",
-            "state": "FL",
-            "zip": "33132",
-            "country": "USA"
-        },
-        "broadcast": {
-            "network": "TNT",
-            "satellite": "245"
-        },
-        "home": {
-            "name": "Miami Heat",
-            "alias": "MIA",
-            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
-        },
-        "away": {
-            "name": "Chicago Bulls",
-            "alias": "CHI",
-            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "gameScore": 19
     },
@@ -1114,33 +1114,33 @@
         "gameScore": 19
     },
     {
-        "id": "c5ed9fc9-f0d2-405c-b974-c654f0f6b372",
+        "id": "e5aef2b6-4a89-4bc4-9300-b69c3f440551",
         "status": "scheduled",
         "coverage": "full",
-        "scheduled": "2016-11-13T02:00:00+00:00",
+        "scheduled": "2016-11-11T01:00:00+00:00",
         "venue": {
-            "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
-            "name": "Pepsi Center",
-            "capacity": 19155,
-            "address": "1000 Chopper Circle",
-            "city": "Denver",
-            "state": "CO",
-            "zip": "80204",
+            "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+            "name": "American Airlines Arena",
+            "capacity": 19600,
+            "address": "601 Biscayne Blvd.",
+            "city": "Miami",
+            "state": "FL",
+            "zip": "33132",
             "country": "USA"
         },
         "broadcast": {
-            "network": "NBA TV",
-            "satellite": "216"
+            "network": "TNT",
+            "satellite": "245"
         },
         "home": {
-            "name": "Denver Nuggets",
-            "alias": "DEN",
-            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
+            "name": "Miami Heat",
+            "alias": "MIA",
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "away": {
-            "name": "Detroit Pistons",
-            "alias": "DET",
-            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
+            "name": "Chicago Bulls",
+            "alias": "CHI",
+            "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "gameScore": 19
     },
@@ -1176,18 +1176,49 @@
         "gameScore": 19
     },
     {
-        "id": "d7b9b7f9-228c-42bc-8934-f25dfb5e0049",
+        "id": "b68b4e02-8044-4327-a9e2-16a157b30c54",
         "status": "scheduled",
         "coverage": "full",
-        "scheduled": "2016-11-15T01:00:00+00:00",
+        "scheduled": "2016-11-13T01:00:00+00:00",
         "venue": {
-            "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
-            "name": "Toyota Center",
-            "capacity": 18055,
-            "address": "1510 Polk St.",
-            "city": "Houston",
-            "state": "TX",
-            "zip": "77002",
+            "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+            "name": "American Airlines Arena",
+            "capacity": 19600,
+            "address": "601 Biscayne Blvd.",
+            "city": "Miami",
+            "state": "FL",
+            "zip": "33132",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "SUN",
+            "satellite": "653"
+        },
+        "home": {
+            "name": "Miami Heat",
+            "alias": "MIA",
+            "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Utah Jazz",
+            "alias": "UTA",
+            "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 19
+    },
+    {
+        "id": "c5ed9fc9-f0d2-405c-b974-c654f0f6b372",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-13T02:00:00+00:00",
+        "venue": {
+            "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
+            "name": "Pepsi Center",
+            "capacity": 19155,
+            "address": "1000 Chopper Circle",
+            "city": "Denver",
+            "state": "CO",
+            "zip": "80204",
             "country": "USA"
         },
         "broadcast": {
@@ -1195,14 +1226,14 @@
             "satellite": "216"
         },
         "home": {
-            "name": "Houston Rockets",
-            "alias": "HOU",
-            "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c"
+            "name": "Denver Nuggets",
+            "alias": "DEN",
+            "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "away": {
-            "name": "Philadelphia 76ers",
-            "alias": "PHI",
-            "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c"
+            "name": "Detroit Pistons",
+            "alias": "DET",
+            "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "gameScore": 19
     },
@@ -1423,33 +1454,33 @@
         "gameScore": 23
     },
     {
-        "id": "e9b5587b-2e23-46e8-84de-ad69cd155548",
+        "id": "ff35592b-b30a-4615-8213-31fb1dd5229e",
         "status": "scheduled",
         "coverage": "full",
-        "scheduled": "2016-11-13T02:00:00+00:00",
+        "scheduled": "2016-11-18T00:00:00+00:00",
         "venue": {
-            "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
-            "name": "Talking Stick Resort Arena",
-            "capacity": 18422,
-            "address": "201 E. Jefferson St.",
-            "city": "Phoenix",
-            "state": "AZ",
-            "zip": "85004",
+            "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+            "name": "Verizon Center",
+            "capacity": 20356,
+            "address": "601 F St. N.W.",
+            "city": "Washington",
+            "state": "DC",
+            "zip": "20004",
             "country": "USA"
         },
         "broadcast": {
-            "network": "FS-AZ+",
-            "satellite": "686-1"
+            "network": "CSN-DC",
+            "satellite": "642"
         },
         "home": {
-            "name": "Phoenix Suns",
-            "alias": "PHX",
-            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c"
+            "name": "Washington Wizards",
+            "alias": "WAS",
+            "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "away": {
-            "name": "Brooklyn Nets",
-            "alias": "BKN",
-            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
+            "name": "New York Knicks",
+            "alias": "NYK",
+            "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "gameScore": 24
     },
@@ -1481,6 +1512,37 @@
             "name": "Boston Celtics",
             "alias": "BOS",
             "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "gameScore": 24
+    },
+    {
+        "id": "e9b5587b-2e23-46e8-84de-ad69cd155548",
+        "status": "scheduled",
+        "coverage": "full",
+        "scheduled": "2016-11-13T02:00:00+00:00",
+        "venue": {
+            "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
+            "name": "Talking Stick Resort Arena",
+            "capacity": 18422,
+            "address": "201 E. Jefferson St.",
+            "city": "Phoenix",
+            "state": "AZ",
+            "zip": "85004",
+            "country": "USA"
+        },
+        "broadcast": {
+            "network": "FS-AZ+",
+            "satellite": "686-1"
+        },
+        "home": {
+            "name": "Phoenix Suns",
+            "alias": "PHX",
+            "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c"
+        },
+        "away": {
+            "name": "Brooklyn Nets",
+            "alias": "BKN",
+            "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c"
         },
         "gameScore": 24
     },
